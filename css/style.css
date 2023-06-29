@@ -1,0 +1,107 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+.NOTO_SANS {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.hidden {
+  display: none;
+}
+.blur {
+  backdrop-filter: blur(4px);
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  backdrop-filter: blur(1px);
+}
+#main_blur {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin-top: -20px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login_page {
+  width: 17%;
+  height: 17%;
+  background-color: gray;
+  border-radius: 6%;
+}
+#nav_bar {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#nav_bar div {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav_bar div:first-child {
+  background-color: rgb(208, 77, 77);
+}
+#nav_bar div:nth-child(2) {
+  background-color: rgb(109, 109, 109);
+}
+#nav_bar div:last-child {
+  background-color: rgb(16, 162, 0);
+}
+#nav_bar i {
+  font-size: 60%;
+  color: rgba(24, 24, 24, 0.849);
+}
+#login_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: auto;
+  padding-top: 30px;
+  border-bottom-left-radius: 6%;
+  border-bottom-right-radius: 6%;
+  height: 85%;
+  background-color: rgb(249, 249, 236);
+}
+
+#login_main span {
+  margin-bottom: 10px;
+}
+.Login {
+  margin-top: 10px;
+  display: flex;
+}
+.Login input {
+  margin-right: 10px;
+  height: 30px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-color: rgb(150, 150, 150);
+  border-radius: 7px;
+  border-width: 1.4px;
+  border-style: solid;
+  background-color: white;
+  opacity: 50%;
+  color: black;
+}
+.Login button {
+  border-radius: 5px;
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 1.4px;
+  border-color: rgb(150, 150, 150);
+  opacity: 80%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+}
