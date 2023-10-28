@@ -16,7 +16,7 @@ function onLoginSubmit(info) {
   paintGreeting(username);
 }
 function paintGreeting(username) {
-  greeting.innerText = greeting.innerText + " " + username;
+  //greeting.innerText = greeting.innerText + " " + username;
   LoginForm.classList.remove(BLUR_CLASS);
   LoginMain.classList.add(HIDDEN_CLASS);
   document.querySelector("#main").classList.remove(HIDDEN_CLASS);
